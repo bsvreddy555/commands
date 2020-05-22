@@ -1,0 +1,37 @@
+git
+----
+
+git init-------------------> inisilize git 
+git status ----------------> check the status of git
+git add -A ----------------> add the file 
+git commit -m "my first commit" ---> commit file into git
+
+after commit run this below commands 
+-------------------------------------
+
+git config --global user.name "bsvreddy555"
+git config --global user.email sreenub256@gmail.com
+
+
+after login git into browser add repository and give the "file name" and select public or private and click "create repository" buttone
+
+after run this below commands
+-----------------------------
+
+1) git remote add origin https://github.com/bsvreddy555/commands.git
+2) git push -u origin master
+
+output:
+-------
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.22 KiB | 1.22 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/bsvreddy555/commands.git
+a4dcc74..101d680  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+
+now add your file into Github
