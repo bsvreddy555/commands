@@ -1,0 +1,56 @@
+linux commands
+---------------
+
+ec2-user------------> This command Used to Login To ec2 instanse
+sudo su ------------> this command used (ex: [ec2-user@ip-172-31-26-185 ~]$ sudo su ) jump to [root@ip-172-31-26-185 ec2-user]# root user
+pwd ----------------> This command used to show the present working directory(ex: /home/ec2-user)
+mkdir --------------> Make a directory or file (ex: mkdir sample) hear useing ''mkdir sample'' to create sample directory under  "/home/ec2-user"
+cd -----------------> Change The Directory
+
+file creation commands
+----------------------
+
+vi ----------------> Create a file (ex: vi sample.txt)useing the "vi sample.txt" command line to create sample.txt file and open the window
+i -----------------> insert the text when i enter "i" keyword  insert mode will be changed
+esc ---------------> when i enter "esc" keyword insert mode will be gone
+:wq ---------------> enter ":wq" file will be save under "/home/ec2-user"
+cat ---------------> this command is used to open a file into command prompt (ex: cat sample.txt)
+
+(cd ..) -----------> this command used to change back directory
+rm -rf ------------> removethe directory (or) folder (ex: rm -rh sample) use this command sample directory will be removed
+clear -------------> this command is used to crear the command prompt screen
+id ----------------> when i use "id" command show the which user login (ex output: uid=0(root) gid=0(root) groups=0(rootcontext=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023)
+uname -a ----------> Display The system Architecture (ex output : Linux ip-172-31-26-185.us-east-2.compute.internal 4.18.0-193.el8.x86_64 #1 SMP Fri Mar 27 14:35:58 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux)
+df -h -------------> identify the mount points
+
+how to insatll wget utility
+---------------------------
+useing this command
+
+"yum install wget"
+
+ll ---------------> Show the list of directories
+
+how to open zip file into linux system
+--------------------------------------
+
+tar -zxvf "file name"
+
+how to identify the which ports are avilable in linux system
+------------------------------------------------------------
+
+netstart -an (show the all port numbers)
+
+identify the perticular port number is avilable are not
+-------------------------------------------------------
+
+netstat -an |grep "port number"
+
+rm dir -----------> remove the directory 
+
+ls ---------------> show the list of files
+rm dir -----------> remove the directory(some times can't work)
+
+
+
+ 
