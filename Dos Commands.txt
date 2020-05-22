@@ -1,0 +1,25 @@
+Dos Commands
+-------------
+
+date------------> Change the system Date
+time------------> Change the System Time
+ver-------------> Identify the system version (ex : Microsoft Windows [Version 10.0.18363.836])
+cls-------------> clear the command prompt screen
+dir-------------> list of Directories
+md--------------> Make directory (ex: md directory name)
+cd ------------ > change the directory(ex : cd C:\Users\mywin>)
+copy con -------> This command Useing file create through Commaline (ex: copy con filename)
+f6(or)ctrl+z----> save the file
+notepad---------> this command useing create file througth Notepad (ex: notepad sample.txt) hear created sample.txt file in your directory
+type------------>  view the file (or) open the file in command prompt(ex: type sample.txt) hear open your sample.txt file in command prompt (this sample.txt file is not their in your directory then showing this line (The system cannot find the file specified.))
+copy -----------> copy a file you required a location (ex: C:\Users\mywin\OneDrive\Desktop\myfolder>copy D:\mypython\venv\Scripts)Hear D:\mypython\venv\Scripts folder all files copy into C:\Users\mywin\OneDrive\Desktop\myfolder----my folder
+move -----------> move the files in one directory to another directory (ex: C:\Users\mywin\OneDrive\Desktop\myfolder>move D:\django\linux\Linux_Basics_In_Telugu__Linux_In_Telugu__Free.mp4) Hear  D:\django\linux directory haveing one vedio file this vedio file move to C:\Users\mywin\OneDrive\Desktop\myfolder----myfolder
+exit------------> exit command use to exit our command prompt
+del-------------> delete the file (ex: C:\Users\mywin\OneDrive\Desktop>del sample.txt) Hear delete the sample.txt file your Desktop
+rd--------------> Remove the empty Directory (ex: C:\Users\mywin\OneDrive\Desktop>rd sa) hear sa directory was deleted
+ipconfig--------> identify the system IP address
+ctrl+c ---------> any action will be stoped
+rename---------->rename the file (ex: C:\Users\mywin\OneDrive\Desktop\myfolder>rename pi.exe p.exe)myfolder haveing the pi.exe now iam changeing p.exe
+
+
+ 
